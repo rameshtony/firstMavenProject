@@ -16,7 +16,7 @@ public class App
     	String str2 = "XXXX123Sh4G21";
 
 		String digits = str2.replaceAll("[a-z]", "");
-
+		System.out.println("adding from github place");
 		System.out.println(digits);
 		
     }
