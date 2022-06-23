@@ -6,8 +6,17 @@ package GroupIDTeamSixMaven.ArtifactIDTeamSixMaven;
  */
 public class App 
 {
-    public static void main( String[] args )
+     public static void main( String[] args )
     {
-        System.out.println( "list the number of files in a github" );
+
+    	String str = "abc";
+    	String str1 = "abc";
+    	System.out.println(str==str1);
+    	
+    	String str2 = "XXXX123Sh4G21";
+
+		String digits = str2.replaceAll("[a-z]", "");
+		System.out.println(digits);
+		
     }
 }
